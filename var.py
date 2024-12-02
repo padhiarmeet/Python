@@ -12,5 +12,4 @@
   
 a = 100_00_00
 print(type(a))
-
-#hello bhaibandh
+#dhula ni maherbani
