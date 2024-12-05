@@ -1,1 +1,1 @@
-arr.reverse()
+color

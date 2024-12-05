@@ -8,5 +8,4 @@
 
 pizza = ['mozarella','thin crust','farm delight']
 
-for pip in pizza:
-    
+        
