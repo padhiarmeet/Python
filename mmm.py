@@ -1,7 +1,7 @@
 from prettytable import PrettyTable 
 
 n = int(input("Enter number of rows- "));
-method = int(input("Enter number of what method you want to do \n1]Direct Method\n2]Assumed Mean Method\n3]Step Division Method\n"))
+method = int(input("Enter number of what method you want to do \n1] Direct Method\n2] Assumed Mean Method\n3] Step Division Method\n"))
 xi = []
 fi = []
 fixi = []
@@ -20,9 +20,7 @@ if method == 1:
         xi.append(int(input(f"Enter xi for {i} element - ")))
         fi.append(int(input(f"Enter fi for {i} element - ")))
         fixi.append(xi[i] * fi[i])
-
         print("\n");
-
 
     Sxi = sum(xi)
     Sfi = sum(fi)
@@ -100,7 +98,7 @@ elif method == 3:
 
     for i in range(0,n):
 
-        if i == a:
+        if i == int(a):
             myTable.add_row([clas[i],fi[i],f"{xi[i]} = A",ui[i],fiui[i]])
         else:
             myTable.add_row([clas[i],fi[i],xi[i],ui[i],fiui[i]])

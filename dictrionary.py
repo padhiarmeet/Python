@@ -43,3 +43,14 @@ if 'meet' not in favorite_languages.keys():
 for key in sorted(favorite_languages.keys()): #You can also use it like this..
     print(key)
 
+favorite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+  }
+
+for name,language in favorite_languages.items():
+    print(f"\n {name}'s favourite language is ")
+    for lan in language:
+        print(f"\t{lan}")
