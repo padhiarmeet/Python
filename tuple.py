@@ -11,6 +11,3 @@ for dic in dimentions:
 oldTuple = (100,200,300)
 
 print(oldTuple)
-                
-
-print(newTuple)
